@@ -1,0 +1,19 @@
+#root {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+}
+
+.json-fetch-hook { padding: 2em; background-color: #1a1a1a; border-radius: 8px; }
+
+.json-fetch-hook__title { font-size: 1.5em; line-height: 1.1; }
+
+.json-fetch-hook__text { margin-top: 2em; }
+
+@media (prefers-color-scheme: light) {
+    .json-fetch-hook { background-color: #f9f9f9; }
+}
